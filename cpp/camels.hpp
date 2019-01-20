@@ -14,7 +14,7 @@ public:
 
 private:
     int length;
-    std::vector<LinkedList<int> > grid;
+    std::vector<LinkedList<int> *> grid;
     std::vector<int> available_dice;
     void simulate_leg(int *counts);
 };
